@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lora:wght@700&family=Open+Sans&family=Oswald:wght@200&family=Roboto:wght@100;400&family=Share+Tech&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0px;
+}
+body{
+    background-color: #54c3ef;
+}
+/* head1 */
+.text-center{
+    color: #fad744;
+    margin: 20px 0 20px 0 ;
+    font-family: "Caveat Brush" ;
+    font-size: 70px;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* question1 */
+.bg-container02{
+    background-color: #2b3252;
+    position: relative;
+    width: 44vw;
+    /* background-size: cover; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+    margin-left: 145px;
+}
+.head2{
+    color: #fad744;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+label{
+    /* display: inline-block; */
+    margin-bottom: 0.5rem;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #fad744;
+    display: flex;
+}
+.horizontal{
+    background-color: #fad744;
+    width: 95%;
+    margin-left: 25px;
+}
+/* button */
+button{
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+/* score */
+.Scoreboard{
+    background-color: #fff;
+    width: 170px;
+    height: 195px;
+    border-radius: 10px;
+    /* margin-top: 36px; */
+    margin-left: 25px;
+    position: absolute;
+    left: calc(100% + 10px);
+    /* right: 150px; */
+    top:0;
+}
+.scorehead{
+    color: #2b3252;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 15px;
+}
+.counter{
+    color: #2b3252;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 15px;
+}
