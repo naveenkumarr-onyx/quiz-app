@@ -64,11 +64,10 @@ function calcScore(){
     else{
         var s5 = 0;
     }
-    function myFunction(){
-        alert("hello!");       
-    }
     var totalScore = s1 + s2 + s3 + s4 + s5;
-
+if(totalScore < 5){
+        alert("Well try")
+}
     document.getElementById("scs").innerHTML = totalScore;
 
 }
